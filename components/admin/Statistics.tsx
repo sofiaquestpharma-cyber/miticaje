@@ -307,7 +307,7 @@ export default function Statistics({ stats, workCenters, onRefresh }: Statistics
                 .sort((a, b) => b.total_hours - a.total_hours)
                 .map((employee) => {
                   // Calcular promedio diario aproximado
-                  const daysWorked = Math.max(1, Math.ceil(employee.total_records / 4)) // Asumiendo 4 fichajes por día
+                  const daysWorked = Math.max(1, Math.ceil(employee.total_records / 2)) // 2 fichajes por día (entrada y salida)
                   const dailyAverage = employee.total_hours / daysWorked
 
                   return (

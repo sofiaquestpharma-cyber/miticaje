@@ -25,3 +25,35 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ========================================
+# ARCHIVOS DE MIGRACIÓN Y DESARROLLO
+# ========================================
+
+# Backups de datos sensibles
+backup-*.json
+*.backup
+
+# Scripts de migración temporal
+restore-*.js
+backup-*.js
+generate-*.js
+check-db-*.js
+generate-sql-migrations.js
+
+# Archivos SQL de migración (contienen datos sensibles)
+simple-migration.sql
+complete-migration.sql
+insert-initial-data.sql
+
+# Documentos de configuración temporal
+setup-new-supabase.md
+MIGRATION_SUCCESS.md
+INSTRUCCIONES_FINALES.md
+
+# Documentos de días no laborables (específicos del proyecto)
+DIAS_NO_LABORABLES_*.md
+
+# Archivos de configuración de paquetes
+pnpm-lock.yaml
+package-lock.json
