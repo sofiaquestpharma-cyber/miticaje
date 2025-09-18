@@ -1,0 +1,27 @@
+{
+  "name": "MiTicaje - Sistema de Control Horario",
+  "short_name": "MiTicaje",
+  "description": "Sistema de fichaje horario profesional",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#18517a",
+  "theme_color": "#18517a",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "es",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
