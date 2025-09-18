@@ -110,7 +110,7 @@ CREATE INDEX IF NOT EXISTS idx_employees_work_center ON employees(work_center_id
 CREATE INDEX IF NOT EXISTS idx_time_records_employee ON time_records(employee_id);
 CREATE INDEX IF NOT EXISTS idx_time_records_timestamp ON time_records(timestamp);
 CREATE INDEX IF NOT EXISTS idx_time_records_action_type ON time_records(action_type);
-CREATE INDEX IF NOT EXISTS idx_time_records_date ON time_records(DATE(timestamp));
+CREATE INDEX IF NOT EXISTS idx_time_records_date ON time_records((timestamp::date));
 CREATE INDEX IF NOT EXISTS idx_time_records_work_center ON time_records(work_center_id);
 
 -- Índices para work_centers
