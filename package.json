@@ -1,8 +1,8 @@
 {
-  "name": "miticaje",
+  "name": "miticaje-quest-pharma",
   "version": "1.0.0",
   "private": true,
-  "description": "Sistema moderno de control horario con geolocalización",
+  "description": "Sistema moderno de control horario con geolocalización para Quest Pharma Laboratorio",
   "type": "module",
   "scripts": {
     "dev": "next dev",

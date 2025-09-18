@@ -1,6 +1,6 @@
-# 🕐 MiTicaje - Sistema de Control Horario
+# 🕐 MiTicaje Quest Pharma - Sistema de Control Horario
 
-Sistema moderno de control horario con geolocalización, desarrollado con Next.js y Supabase.
+Sistema moderno de control horario con geolocalización para Quest Pharma Laboratorio, desarrollado con Next.js y Supabase.
 
 ## 🚀 Características
 
